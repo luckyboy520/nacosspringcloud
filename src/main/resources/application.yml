@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: nacos-config
+  cloud:
+    # https://github.com/alibaba/spring-cloud-alibaba/wiki/Nacos-config
+    nacos:
+      config:
+        server-addr: 127.0.0.1:8848
+
